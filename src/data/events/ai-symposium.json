@@ -1,0 +1,91 @@
+{
+  "id": "ai-ml-symposium-2023",
+  "title": "AI and Machine Learning Symposium",
+  "date": "2023-09-15",
+  "time": {
+    "start": "9:00 AM",
+    "end": "5:00 PM"
+  },
+  "venue": "Main Auditorium",
+  "description": "A day-long symposium featuring talks from industry experts on the latest in AI and ML.",
+  "coordinators": [
+    {
+      "name": "Dr. Jane Smith",
+      "role": "Event Chair",
+      "email": "jane.smith@example.com",
+      "linkedin": "https://linkedin.com/in/janesmith",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "name": "Prof. John Doe",
+      "role": "Technical Coordinator",
+      "email": "john.doe@example.com",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    }
+  ],
+  "speakers": [
+    {
+      "name": "Dr. Alice Johnson",
+      "organization": "Tech Innovations Inc.",
+      "topic": "The Future of AI in Healthcare",
+      "presentation": "/presentations/future-ai-healthcare.pdf",
+      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "name": "Mr. Bob Williams",
+      "organization": "Data Dynamics Corp.",
+      "topic": "Ethical Considerations in Machine Learning",
+      "presentation": "/presentations/ethical-ml.pdf",
+      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    }
+  ],
+  "schedule": [
+    {
+      "time": "9:00 AM - 9:30 AM",
+      "activity": "Registration and Welcome Coffee"
+    },
+    {
+      "time": "9:30 AM - 11:00 AM",
+      "activity": "Keynote Speech: The Future of AI in Healthcare"
+    },
+    {
+      "time": "11:15 AM - 12:45 PM",
+      "activity": "Panel Discussion: Ethical Considerations in Machine Learning"
+    },
+    {
+      "time": "12:45 PM - 2:00 PM",
+      "activity": "Lunch Break"
+    },
+    {
+      "time": "2:00 PM - 3:30 PM",
+      "activity": "Workshop: Hands-on Machine Learning"
+    },
+    {
+      "time": "3:45 PM - 5:00 PM",
+      "activity": "Closing Remarks and Networking Session"
+    }
+  ],
+  "materials": {
+    "brochure": "/materials/event-brochure.pdf",
+    "workshop": "/materials/workshop-materials.pdf"
+  },
+  "gallery": [
+    {
+      "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "caption": "Opening Ceremony"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "caption": "Keynote Speech"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "caption": "Panel Discussion"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "caption": "Workshop Session"
+    }
+  ]
+}
