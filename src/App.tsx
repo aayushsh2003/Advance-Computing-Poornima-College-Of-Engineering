@@ -64,12 +64,12 @@ function App() {
               <h3 className="text-xl font-bold mb-4">Quick Links</h3>
               <ul className="space-y-2">
                 <li><button onClick={() => setCurrentPage('home')} className="hover:text-blue-400">Home</button></li>
-                <li><button onClick={() => setCurrentPage('home')} className="hover:text-blue-400">About</button></li>
-                <li><button onClick={() => setCurrentPage('home')} className="hover:text-blue-400">Programs</button></li>
-                <li><button onClick={() => setCurrentPage('home')} className="hover:text-blue-400">Faculty</button></li>
+                <li><button onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-blue-400">About</button></li>
+                <li><button onClick={() => document.getElementById('programs')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-blue-400">Programs</button></li>
+                <li><button onClick={() => document.getElementById('faculty')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-blue-400">Faculty</button></li>
                 <li><button onClick={() => setCurrentPage('events')} className="hover:text-blue-400">Events</button></li>
-                <li><button onClick={() => setCurrentPage('home')} className="hover:text-blue-400">News</button></li>
-                <li><button onClick={() => setCurrentPage('home')} className="hover:text-blue-400">Contact</button></li>
+                <li><button onClick={() => document.getElementById('news')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-blue-400">News</button></li>
+                <li><button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-blue-400">Contact</button></li>
               </ul>
             </div>
             <div>
